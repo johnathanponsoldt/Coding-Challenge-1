@@ -47,3 +47,18 @@ console.log (employeescore1 >= employeescore2);
 console.log (employeescore1 <= employeescore2);
 console.log (employeescore1 === employeescore2);
 console.log (employeescore1 !== employeescore2);
+
+
+// Task 5: Logical Operators
+
+let hasKeyCard = true;
+let hasPermission = false;
+let canAccessRestrictedArea = hasKeyCard && hasPermission;
+console.log (canAccessRestrictedArea);
+let canAccessGeneralArea = hasKeyCard || hasPermission;
+console.log (canAccessGeneralArea);
+let lacksPermission = !hasPermission;
+console.log (lacksPermission);
+let canAccessSpecialArea = hasKeyCard && !hasPermission;
+console.log (canAccessSpecialArea);
+
